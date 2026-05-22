@@ -12,6 +12,10 @@ providers.
 This GitHub repository is release-only. It provides packaged application builds
 for Windows, Linux, and macOS. LivChart source code is not published here.
 
+Product website: https://livchart.com
+
+Company website: https://livyazilim.com
+
 ## Keywords
 
 LivChart AI Analytics, LivChart Local AI Analytics, local AI data analysis, AI
