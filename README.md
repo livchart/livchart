@@ -1,42 +1,56 @@
 # LivChart AI Analytics
 
-Release repository for **LivChart AI Analytics** and **LivChart Local AI Analytics**.
+**LivChart AI Analytics** is an AI-powered business intelligence and data
+analysis platform for building governed dashboards, charts, reports, and
+workbook-style analytics from business data.
 
-This repository is used only for published application packages. It does not
-contain the LivChart source code.
+**LivChart Local AI Analytics** brings the same analytics experience to local
+and private AI environments, enabling **local AI data analysis**, on-premise BI,
+private data analytics, and secure AI-assisted reporting with local model
+providers.
+
+This GitHub repository is release-only. It provides packaged application builds
+for Windows, Linux, and macOS. LivChart source code is not published here.
+
+## Keywords
+
+LivChart AI Analytics, LivChart Local AI Analytics, local AI data analysis, AI
+analytics platform, AI business intelligence, local AI BI, private AI analytics,
+on-premise analytics, local LLM analytics, AI dashboard builder, AI chart
+generator, self-service BI, data visualization, dashboard software, analytics
+studio, spreadsheet analytics, ETL analytics, AI-assisted reporting.
 
 ## Product Overview
 
-LivChart is an AI-assisted analytics and BI platform for turning business data
-into governed dashboards, charts, and workbook-style analysis.
+LivChart helps teams move from raw business data to reliable analytics workflows:
 
-LivChart combines:
-
-- AI provider integration for chart and insight generation
-- Data provider and query workflows
-- ETL and DataStudio preparation
-- AI-assisted Chart Wizard flows
-- Dashboard Manager and dashboard viewing
-- Analytics Studio workbooks for Excel-like analysis
-- Sharing, permissions, and controlled publication flows
+- connect AI providers for chart planning and insight generation
+- connect data providers and create reusable queries
+- prepare data in DataStudio / ETL workflows
+- generate charts with AI-assisted Chart Wizard flows
+- build governed dashboards in Dashboard Manager
+- explore data in Analytics Studio workbooks
+- share dashboards, charts, and workbooks with controlled permissions
 
 ## Product Editions
 
 ### LivChart AI Analytics
 
-Designed for cloud or managed AI provider workflows. It can connect to supported
-AI providers such as OpenAI, Gemini, and Livaicloud for AI-assisted analytics,
-chart planning, dashboard support, and insight generation.
+LivChart AI Analytics is designed for cloud or managed AI provider workflows. It
+can work with supported AI providers such as OpenAI, Gemini, and Livaicloud for
+AI-assisted analytics, chart generation, dashboard support, and insight
+generation.
 
 ### LivChart Local AI Analytics
 
-Designed for local or private AI inference workflows. It supports local model
-providers such as Ollama and LM Studio for organizations that need data privacy,
-on-prem deployment, local GPU usage, or closed-network analytics.
+LivChart Local AI Analytics is designed for organizations that need local AI data
+analysis and private analytics workflows. It supports local model providers such
+as Ollama and LM Studio for on-premise deployments, local GPU inference,
+closed-network environments, and data privacy-focused analytics.
 
 ## Release Packages
 
-Download the package for your operating system from the latest GitHub Release:
+Download the latest package for your operating system from GitHub Releases:
 
 | Platform | Asset |
 | --- | --- |
@@ -44,10 +58,10 @@ Download the package for your operating system from the latest GitHub Release:
 | Linux | `LivChart_Linux_Dist.zip` |
 | macOS | `LivChart_MacOS_Dist.zip` |
 
-Each package includes the packaged application files and platform-specific run
+Each package includes packaged application files and platform-specific run
 scripts.
 
-## Typical Flow
+## Typical Workflow
 
 1. Admin connects an AI provider.
 2. Admin connects data providers and creates queries.
@@ -57,7 +71,7 @@ scripts.
 6. Users view shared dashboards.
 7. Users create personal charts or workbooks in Analytics Studio.
 8. Personal analysis can be shared or promoted through controlled publication
-   flows.
+   workflows.
 
 ## Analytics Studio
 
@@ -76,5 +90,6 @@ This repository is intentionally release-only.
 
 ## Support
 
-For installation, licensing, provider setup, or deployment support, contact the
-LivChart maintainer or your internal LivChart administrator.
+For installation, licensing, provider setup, local AI setup, or deployment
+support, contact the LivChart maintainer or your internal LivChart
+administrator.
