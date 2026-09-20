@@ -6,9 +6,9 @@ Connect business data, define shared metrics, and turn questions into interactiv
 
 **[Explore the demo](https://livchart.com/en#demo)** · **[Discuss your deployment](https://livchart.com/en#contact-form)** · **[Download LivChart](https://github.com/livchart/livchart/releases/latest)**
 
-![LivChart AI Analytics — Your data. Clear decisions. A designed cover featuring a synthetic sales dashboard.](assets/livchart-cover.png)
+![LivChart 3.4.9 sales dashboard rendered in the application with a vivid chart palette and synthetic demo data.](assets/livchart-cover.png)
 
-*Sales performance in one workspace. Cover artwork based on the [original application screenshot](assets/sales-dashboard.png). All examples use synthetic demonstration data.*
+*Sales performance in one workspace. [Full-size application screenshot](assets/sales-dashboard.png), captured directly from LivChart 3.4.9 with a vivid chart palette. All examples use synthetic demonstration data.*
 
 ## From a business question to a shared decision
 
