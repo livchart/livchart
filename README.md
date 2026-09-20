@@ -1,101 +1,87 @@
-# LivChart AI Analytics - AI Business Intelligence, Dashboards, and Local AI Data Analysis
+# LivChart AI Analytics
 
-LivChart AI Analytics is an AI-powered business intelligence platform for teams that need governed dashboards, AI-generated charts, interactive reporting, ETL workflows, and workbook-style data analysis from business data.
+### AI analytics for teams that need control over their data.
 
-The official LivChart product website is https://livchart.com.
+Connect business data, define shared metrics, and turn questions into interactive dashboards and reports. Give teams AI-assisted analysis with subject-based access, inspectable answer evidence, and a choice of local or cloud AI providers.
 
-This GitHub repository is the public release channel for LivChart packages. It is designed to help users find official downloads, release notes, and platform packages for Windows, Linux, and macOS. LivChart source code is not published in this repository.
+**[Explore the demo](https://livchart.com/en#demo)** · **[Discuss your deployment](https://livchart.com/en#contact-form)** · **[Download LivChart](https://github.com/livchart/livchart/releases/latest)**
 
-## What Is LivChart?
+![LivChart 3.4.9 sales dashboard with revenue and profit indicators, monthly trends, and regional comparisons using synthetic demo data.](assets/sales-dashboard.png)
 
-LivChart helps organizations turn operational data into reliable analytics workflows. It combines data preparation, dashboard management, chart generation, AI insight generation, and spreadsheet-like analysis in a single analytics product.
+*Sales performance in one workspace. Screenshots use synthetic demonstration data, not customer records.*
 
-Use LivChart when you need:
+## From a business question to a shared decision
 
-- AI business intelligence and self-service analytics
-- AI-assisted chart generation from business datasets
-- governed dashboard creation and dashboard sharing
-- ETL-backed data preparation with reusable datasets
-- DataStudio workflows for computed columns and transformations
-- Analytics Studio workbooks for pivots, filters, charts, subtotals, and exports
-- local AI data analysis with private model providers
-- secure analytics workflows for business reporting
+Imagine your sales team asking: **“Which regions are driving revenue, and how are we tracking through the year?”**
 
-## Product Editions
+1. **Connect the data.** Bring in Excel/CSV files, database queries, or supported web services; prepare reusable ETLs in DataStudio.
+2. **Define the business meaning.** Use the Semantic Layer for metric calculations and filters. Add Company Knowledge to explain terminology and business rules to AI.
+3. **Build and refine the analysis.** Ask for charts or a multi-widget Dynamic Dashboard, then review the result and adjust the draft through the editor or Dashboard Chat.
+4. **Inspect the answer.** Review the columns, applied filters, and method information available alongside the result.
+5. **Share and monitor.** Save the dashboard, give the right users access, and configure scheduled PDF/email reports or threshold alerts.
 
-### LivChart AI Analytics
+## Controls that matter to business teams
 
-LivChart AI Analytics is the cloud or managed-provider edition for AI-assisted analytics. It can work with supported AI providers for chart planning, dashboard chat, insight generation, report summaries, and guided data exploration.
-
-Common use cases include management dashboards, sales analytics, operational reporting, finance analysis, customer analytics, KPI monitoring, and AI-assisted business reporting.
-
-### LivChart Local AI Analytics
-
-LivChart Local AI Analytics is built for teams that want private analytics and local AI data analysis. It supports local model workflows with providers such as Ollama and LM Studio, making it suitable for on-premise BI, closed-network deployments, local GPU inference, and privacy-focused analytics.
-
-Local AI Analytics is useful when business data should remain inside the organization while users still need AI-assisted charting, dashboard insights, and data exploration.
-
-## Main Capabilities
-
-- AI Chart Wizard for generating bar, line, combo, scatter, pie, radar, funnel, distribution, and other chart types
-- Dashboard Manager for building governed dashboard pages
-- dashboard chat and AI insight workflows for business explanations
-- DataStudio and ETL workflows for reusable analytics datasets
-- Analytics Studio for Excel-like workbook analysis over ETL-backed data
-- pivots, computed columns, filters, subtotals, conditional formatting, and exports
-- scheduled reports, AI discovery workflows, and dashboard sharing
-- cloud AI and local AI provider support depending on deployment model
-
-## Download LivChart
-
-Download the latest LivChart package from GitHub Releases:
-
-https://github.com/livchart/livchart/releases/latest
-
-Available release assets:
-
-| Platform | Package |
+| Your team's need | What LivChart provides |
 | --- | --- |
-| Windows | LivChart_Windows_Dist.zip |
-| Linux | LivChart_Linux_Dist.zip |
-| macOS | LivChart_MacOS_Dist.zip |
+| Consistent business metrics | A Semantic Layer for dimensions, measures, expressions, synonyms, and measure filters. |
+| Shared business context | Subject-scoped Company Knowledge, with administrator review before saving definitions learned from a conversation. |
+| Appropriate data access | User roles, subject-based authorization, personal workspaces, and controlled sharing of dashboards, charts, and workbooks. |
+| Answers you can inspect | Technical evidence showing available calculation fields, applied filters, and answer methods. The technical trust score describes validation; it does not guarantee business correctness. |
+| Visibility into operations | Activity logs for application operations, scheduled jobs, and system health checks. |
+| Choice over AI processing | Configurable local and cloud providers, with data approval and identifier-masking controls for supported AI flows. |
 
-Each release includes version notes and checksums where available. For product information, licensing, and commercial deployment details, visit https://livchart.com.
+Company Knowledge supplies context; it does not replace the Semantic Layer's calculation definitions. AI-generated analyses and changes remain reviewable before you rely on or save them.
 
-## Typical LivChart Workflow
+## Ask questions where you work
 
-1. Connect an AI provider or configure a local AI provider.
-2. Connect data sources and create reusable queries.
-3. Prepare datasets with DataStudio and ETL workflows.
-4. Generate charts with AI-assisted Chart Wizard flows.
-5. Build dashboards in Dashboard Manager.
-6. Share dashboards, charts, or workbooks with controlled permissions.
-7. Explore ETL-backed data in Analytics Studio workbooks.
-8. Use dashboard chat and AI insights to explain trends, anomalies, and KPI changes.
+Dashboard Chat can answer questions, return tables, generate charts, and create Dynamic Dashboards. In an editable dashboard, it can also update charts, widgets, pages, and supported interactions. Review the draft and save when it is ready.
 
-## Local AI and Private Analytics
+![Dashboard Chat answering a regional net sales question with a result table and its technical evidence, using synthetic data.](assets/dashboard-chat-evidence.png)
 
-LivChart Local AI Analytics is intended for organizations evaluating local AI BI, private AI analytics, on-premise analytics, and local LLM analytics. It can be paired with the LivChart Local AI Starter repository for Docker-based local setup workflows.
+*Inspect the analysis scope and export answer tables to Excel. Follow-up questions can reuse the previous chart context.*
 
-Local AI starter repository:
+## Explore, report, and plan
 
-https://github.com/livchart/livchart-local-ai-starter
+**Analytics Studio** brings prepared data into a spreadsheet-style workbook. Combine source-linked summary tables, pivots, calculations, charts, and notes; save the workbook and share it with authorized colleagues. Data-scope indicators distinguish full-data results from limited previews.
 
-## Official Links
+![Analytics Studio displaying a regional sales summary and a chart linked to that result table in a saved workbook.](assets/analytics-studio.png)
 
-- Product website: https://livchart.com
-- Company website: https://livyazilim.com
-- Releases: https://github.com/livchart/livchart/releases
-- Local AI Starter: https://github.com/livchart/livchart-local-ai-starter
+**Interactive dashboards** combine KPIs, charts, advanced pivots, filters, and drill-down. Desktop and mobile layouts, PDF output, and scheduled reporting support everyday use and management reviews.
 
-## Repository Policy
+**Optimization Studio** runs administrator-defined models for scheduling, sequencing, routing, and placement scenarios, with results published as ETLs for further analysis. Capabilities vary by model family; heuristic results do not guarantee the mathematical optimum, and planned capabilities are not available solver features.
 
-This repository is release-only.
+[Explore product capabilities](https://livchart.com/en/features) · [Watch product walkthroughs](https://livchart.com/en/tutorials)
 
-- LivChart source code is not published here.
-- Built application packages are distributed through GitHub Releases.
-- Release notes and package checksums are provided for public download verification.
+## Choose where your AI runs
 
-## Search Keywords
+| Option | How to evaluate it |
+| --- | --- |
+| Local AI with Ollama or LM Studio | Run supported model inference on your own device or network. Size the model and hardware for your workload. The [Local AI Starter](https://github.com/livchart/livchart-local-ai-starter) provides a separate Docker-based setup path. |
+| Cloud or managed AI providers | Configure a supported provider. Review the data and context sent to that provider, along with approval and masking settings. |
 
-LivChart AI Analytics, LivChart Local AI Analytics, AI business intelligence, AI analytics platform, local AI data analysis, local AI BI, private AI analytics, on-premise analytics, dashboard software, AI dashboard builder, AI chart generator, self-service BI, data visualization platform, local LLM analytics, Analytics Studio, ETL analytics, spreadsheet analytics, AI-assisted reporting.
+Local AI describes where model inference runs. Activation, updates, optional online sources, and other configured services may still require network access. Feature availability and limits depend on the active license and configuration.
+
+## Start your evaluation
+
+1. **[Review plans](https://livchart.com/en#pricing)** and **[obtain a license](https://livchart.com/en/license)** for the capabilities you want to evaluate.
+2. **Download and extract** the package for your operating system. Follow the [installation guidance](https://livchart.com/en/download) and complete initial setup and activation.
+3. **Connect an AI provider** if you want AI-assisted features. Start with a non-sensitive Excel/CSV sample or an authorized prepared dataset.
+4. **Create your first analysis** in Playground or Chart Wizard. Review its fields, calculations, and filters before saving.
+5. For a team rollout, configure subjects, access, business definitions, and reporting with your administrator. [Discuss your deployment](https://livchart.com/en#contact-form).
+
+| Platform | Latest application package |
+| --- | --- |
+| Windows | [Download ZIP](https://github.com/livchart/livchart/releases/latest/download/LivChart_Windows_Dist.zip) |
+| Linux | [Download ZIP](https://github.com/livchart/livchart/releases/latest/download/LivChart_Linux_Dist.zip) |
+| macOS | [Download ZIP](https://github.com/livchart/livchart/releases/latest/download/LivChart_MacOS_Dist.zip) |
+
+[Release notes and SHA256 checksums](https://github.com/livchart/livchart/releases/latest) · [Tutorials](https://livchart.com/en/tutorials) · [Sales and support](https://livchart.com/en#contact-form)
+
+## Official distribution and support
+
+This is the official public release repository for LivChart. Application packages are distributed through GitHub Releases; the application source code is not published here. Downloading a package does not grant an open-source license. See the official website for licensing and commercial deployment details.
+
+The application includes English and Turkish help for users and administrators. For support, use the in-app **Report Error** action or [contact LivChart](https://livchart.com/en#contact-form). Keep customer records and credentials out of public GitHub issues.
+
+[LivChart](https://livchart.com/en) · [Liv Yazılım](https://livyazilim.com) · [All releases](https://github.com/livchart/livchart/releases)
