@@ -6,9 +6,9 @@ Connect business data, define shared metrics, and turn questions into interactiv
 
 **[Explore the demo](https://livchart.com/en#demo)** · **[Discuss your deployment](https://livchart.com/en#contact-form)** · **[Download LivChart](https://github.com/livchart/livchart/releases/latest)**
 
-![LivChart sales intelligence dashboard with monthly sales time-series analysis, a region-category sunburst, a regional heatmap and order-level sales-profit scatter plot.](assets/livchart-cover.png)
+![LivChart sales intelligence dashboard with monthly sales time-series analysis, a region-category sunburst, a regional heatmap and order-level sales-profit scatter plot.](assets/sales-time-analysis-v349.png)
 
-*Sales performance in one workspace. [Full-size application screenshot](assets/sales-dashboard.png), captured directly from LivChart 3.4.9 with a vivid chart palette. All examples use synthetic demonstration data.*
+*Sales performance in one workspace. [Full-size application screenshot](assets/sales-time-analysis-v349.png), captured directly from LivChart 3.4.9 with a vivid chart palette. All examples use synthetic demonstration data.*
 
 ## From a business question to a shared decision
 
